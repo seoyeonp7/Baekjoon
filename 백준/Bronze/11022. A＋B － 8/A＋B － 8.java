@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int count = scanner.nextInt();
+		int a;
+		int b;
+		
+		for(int i=1; i<=count; i++) {
+			a=scanner.nextInt();
+			b=scanner.nextInt();
+			System.out.println("Case #"+i+": "+ a + " + "+b+" = "+(a+b));
+		}
+	}
+}
